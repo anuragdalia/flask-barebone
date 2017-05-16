@@ -21,7 +21,7 @@ class Config(object):
     MAIL_PORT = 465
     MAIL_USE_SSL = True
     MAIL_USERNAME = 'emailid@gmail.com'
-    MAIL_PASSWORD = 'googlepassword'  # todo create an account for pally
+    MAIL_PASSWORD = 'googlepassword'  
 
     SQLALCHEMY_TRACK_MODIFICATIONS = True
     SQLALCHEMY_COMMIT_ON_TEARDOWN = True
